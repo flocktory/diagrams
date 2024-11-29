@@ -16,5 +16,5 @@ RUN /root/.local/bin/poetry build
 
 RUN curl -v -u deployment:deployment123\
  --upload-file dist/diagrams-0.23.3-py3-none-any.whl\
-  https://nexus.flocktory.com/nexus/content/repositories/snapshots/python/diagrams-0.23.2-py3-none-any.whl
+  https://nexus.flocktory.com/nexus/content/repositories/snapshots/python/diagrams-0.23.3-py3-none-any.whl
 
